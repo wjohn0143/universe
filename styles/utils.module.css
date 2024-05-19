@@ -1,0 +1,125 @@
+.heading1 {
+  font-family: Bellefair, serif;
+  font-size: 150px;
+}
+
+.heading2 {
+  font-family: Bellefair, serif;
+  font-size: 100px;
+}
+
+.heading3 {
+  font-family: Bellefair, serif;
+  font-size: 56px;
+}
+
+.heading4 {
+  font-family: Bellefair, serif;
+  font-size: 32px;
+}
+
+.heading5 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+  letter-spacing: 4.75px;
+}
+
+.subHeading1 {
+  font-family: Bellefair, serif;
+  font-size: 28px;
+}
+
+.subHeading2 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 14px;
+  letter-spacing: 2.35px;
+}
+
+.grayText {
+  color: var(--light-gray);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.pageContainer {
+  margin-inline: 167px;
+}
+
+.pageHeaderContainer {
+  margin-top: 76px;
+  margin-bottom: 64px;
+}
+
+.pageHeaderIndex {
+  padding-right: 28px;
+  font-weight: 700;
+  opacity: 0.25;
+}
+
+@media (max-width: 1439px) {
+  .heading1 {
+    line-height: 150px;
+  }
+
+  .heading2 {
+    font-size: 80px;
+  }
+
+  .heading3 {
+    font-size: 40px;
+  }
+
+  .heading4 {
+    font-size: 24px;
+  }
+
+  .heading5 {
+    font-size: 20px;
+    letter-spacing: 3.38px;
+  }
+
+  .pageContainer {
+    margin-inline: 39px;
+  }
+
+  .pageHeaderContainer {
+    margin-top: 40px;
+    margin-bottom: 26px;
+  }
+}
+
+@media (max-width: 767px) {
+  .heading1 {
+    font-size: 80px;
+    line-height: 100px;
+  }
+
+  .heading2 {
+    font-size: 56px;
+  }
+
+  .heading3 {
+    font-size: 24px;
+  }
+
+  .heading4 {
+    font-size: 16px;
+  }
+
+  .heading5 {
+    font-size: 16px;
+    letter-spacing: 2.7px;
+  }
+
+  .pageContainer {
+    margin-inline: 24px;
+  }
+
+  .pageHeaderContainer {
+    margin-top: 24px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+}
